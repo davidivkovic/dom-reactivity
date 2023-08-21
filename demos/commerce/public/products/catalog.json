@@ -1,0 +1,378 @@
+[
+  {
+    "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzYwNjQ5NjQ5NjQ5MjQ=",
+    "handle": "acme-drawstring-bag",
+    "title": "Acme Drawstring Bag",
+    "collections": [
+      "all",
+      "bags",
+      "homepage-carousel",
+      "homepage-featured"
+    ],
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "12.0",
+        "currencyCode": "USD"
+      },
+      "maxVariantPrice": {
+        "amount": "18.0",
+        "currencyCode": "USD"
+      }
+    },
+    "featuredImage": {
+      "url": "/products/images/bag-1-dark.avif"
+    },
+    "images": [
+      {
+        "url": "/products/images/bag-1-dark.avif",
+        "altText": "Acme Drawstring Bag - bag-1-dark"
+      },
+      {
+        "url": "/products/images/bag-1-light.avif",
+        "altText": "Acme Drawstring Bag - bag-1-light"
+      }
+    ],
+    "descriptionHtml": "<ul>\r\n<li>\r\n<span style=\"font-size: 0.875rem;\">Strong 210D ripstop nylon drawstring bag<\/span><br>\r\n<\/li>\r\n<li>\r\n<span style=\"font-size: 0.875rem;\">Available in multiple sizes<\/span><br>\r\n<\/li>\r\n<li>\r\n<span style=\"font-size: 0.875rem;\">Easy-to-close durable drawstring<\/span><br>\r\n<\/li>\r\n<li>\r\n<span style=\"font-size: 0.875rem;\">Sturdy, reusable, and resilient<\/span><br>\r\n<\/li>\r\n<\/ul>",
+    "availableForSale": true,
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Black",
+          "White"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "6 x 8 inch",
+          "7 x 9 inch",
+          "8 x 11 inch",
+          "9 x 12 inch",
+          "10 x 15 inch",
+          "12 x 16 inch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "7 x 9 inch"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "8 x 11 inch"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "9 x 12 inch"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "10 x 15 inch"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "12 x 16 inch"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "White"
+          },
+          {
+            "name": "Size",
+            "value": "6 x 8 inch"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "White"
+          },
+          {
+            "name": "Size",
+            "value": "7 x 9 inch"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "White"
+          },
+          {
+            "name": "Size",
+            "value": "8 x 11 inch"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "White"
+          },
+          {
+            "name": "Size",
+            "value": "9 x 12 inch"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "White"
+          },
+          {
+            "name": "Size",
+            "value": "10 x 15 inch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzYwNjQ5NjQ5NjQ5MjQ=",
+    "handle": "acme-hoodie",
+    "title": "Acme Hoodie",
+    "collections": [
+      "all",
+      "hoodies",
+      "homepage-carousel",
+      "homepage-featured"
+    ],
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "50.0",
+        "currencyCode": "USD"
+      },
+      "maxVariantPrice": {
+        "amount": "50.0",
+        "currencyCode": "USD"
+      }
+    },
+    "featuredImage": {
+      "url": "/products/images/hoodie-1.avif"
+    },
+    "descriptionHtml": "<p>Fabric blend of Supima Cotton and Micromodal.</p>",
+    "images": [
+      {
+        "url": "/products/images/hoodie-1.avif",
+        "altText": "Acme Hoodie - hoodie-1"
+      },
+      {
+        "url": "/products/images/hoodie-2.avif",
+        "altText": "Acme Hoodie - hoodie-2"
+      }
+    ],
+    "availableForSale": true,
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL",
+          "XXXL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 11,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Size",
+            "value": "S"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Size",
+            "value": "M"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Size",
+            "value": "L"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Size",
+            "value": "XL"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Size",
+            "value": "XXL"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Size",
+            "value": "XXXL"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzYwNjQ5NjQ5NjQ5MjQ=",
+    "handle": "acme-cup",
+    "title": "Acme Cup",
+    "collections": [
+      "all",
+      "cups",
+      "homepage-carousel",
+      "homepage-featured"
+    ],
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "15.0",
+        "currencyCode": "USD"
+      },
+      "maxVariantPrice": {
+        "amount": "15.0",
+        "currencyCode": "USD"
+      }
+    },
+    "featuredImage": {
+      "url": "/products/images/cup-black.avif"
+    },
+    "descriptionHtml": "<p>12oz double wall ceramic body with a padded bottom.</p>",
+    "images": [
+      {
+        "url": "/products/images/cup-black.avif",
+        "altText": "Acme Cup - Black"
+      },
+      {
+        "url": "/products/images/cup-white.avif",
+        "altText": "Acme Cup - White"
+      }
+    ],
+    "availableForSale": true,
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Black",
+          "White"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 17,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "White"
+          }
+        ]
+      }
+    ]
+  }
+]

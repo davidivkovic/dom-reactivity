@@ -1,0 +1,31 @@
+@keyframes animate-enter {
+	from {
+		transform: scale(0);
+		opacity: 0;
+	}
+	to {
+		transform: scale(1);
+		opacity: 1;	
+	}
+}
+
+@keyframes animate-exit {
+	from {
+		transform: scale(1);
+		opacity: 1;	
+	}
+	to {
+		transform: scale(0);
+		opacity: 0;
+	}
+}
+
+.enter {
+	animation: animate-enter .3s linear;
+	transform-origin: left;
+}
+
+.exit {
+	animation: animate-exit .3s linear;
+	transform-origin: left;
+}

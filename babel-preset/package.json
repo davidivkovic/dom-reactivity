@@ -1,0 +1,11 @@
+{
+  "name": "babel-preset-dom-reactivity",
+  "version": "0.0.4",
+  "description": "Babel preset for the dom-reactivity library, transforms JSx and compiles components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Ivković",
+  "license": "ISC"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "dom-reactivity",
+  "version": "0.0.49",
+  "description": "A declarative UI library. It uses fine grained reactivity with no virtual DOM.",
+  "type": "module",
+  "main": "dist/dom-reactivity.client.js",
+  "module": "dist/dom-reactivity.client.js",
+  "exports": {
+    ".": "./dist/dom-reactivity.client.js",
+    "./ssr": "./dist/dom-reactivity.server.js"
+  },
+  "private": false,
+  "keywords": [
+    "reactivity",
+    "dom",
+    "declarative",
+    "ui",
+    "library"
+  ],
+  "author": "David Ivković",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "rollup-plugin-terser": "^7.0.2",
+    "vite": "^4.3.0"
+  }
+}
