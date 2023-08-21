@@ -149,7 +149,7 @@ export function useQuery() {
     queryParams(v)
     const [route] = currentRoute().split('?')
     const newQuery = new URLSearchParams(queryParams()).toString()
-    navigateTo(route + (newQuery ? '?' + newQuery : ''), true)
+    navigateTo(route + (newQuery ? '?' + newQuery : ''), { skipNavigation: true })
   }
 }
 

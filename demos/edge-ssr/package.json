@@ -6,13 +6,13 @@
   },
   "devDependencies": {
     "bytes": "^3.1.2",
-    "dom-reactivity": "^0.0.5",
+    "dom-reactivity": "^0.0.50",
     "edge-runtime": "1.1.0-beta.7",
     "esbuild": "^0.14.54",
     "ms": "^2.1.3",
     "picocolors": "^1.0.0",
     "sirv": "^2.0.2",
     "vite": "^4.4.7",
-    "vite-plugin-dom-reactivity": "^0.0.29"
+    "vite-plugin-dom-reactivity": "^0.0.31"
   }
 }
