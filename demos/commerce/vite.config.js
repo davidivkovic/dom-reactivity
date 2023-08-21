@@ -14,5 +14,8 @@ export default defineConfig({
       'pages': path.resolve(__dirname, './src/pages'),
       'lib': path.resolve(__dirname, './src/lib'),
     }
+  },
+  build: {
+    target: 'esnext'
   }
 })
