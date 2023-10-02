@@ -1,10 +1,11 @@
 {
   "name": "dom-reactivity",
-  "version": "0.0.50",
+  "version": "0.0.53",
   "description": "A declarative UI library. It uses fine grained reactivity with no virtual DOM.",
   "type": "module",
   "main": "dist/dom-reactivity.client.js",
   "module": "dist/dom-reactivity.client.js",
+  "types": "dist/dom-reactivity.client.d.ts",
   "exports": {
     ".": "./dist/dom-reactivity.client.js",
     "./ssr": "./dist/dom-reactivity.server.js"
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "rollup-plugin-terser": "^7.0.2",
-    "vite": "^4.3.0"
+    "vite": "^4.3.0",
+    "vite-plugin-static-copy": "^0.17.0"
   }
 }

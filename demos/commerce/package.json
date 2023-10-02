@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "dom-reactivity": "^0.0.50",
+    "dom-reactivity": "^0.0.52",
     "clsx": "^2.0.0"
   },
   "devDependencies": {

@@ -393,8 +393,7 @@ function insertExpression(parent, value, current, marker, unwrapArray) {
   }
   while (typeof current === "function") current = current();
   if (value === current) return current;
-  const t = typeof value,
-    multi = marker !== undefined;
+  const t = typeof value, multi = marker !== undefined;
   parent = (multi && current[0] && current[0].parentNode) || parent;
 
   if (t === "string" || t === "number") {

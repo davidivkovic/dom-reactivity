@@ -1,11 +1,21 @@
 import { resolve } from 'path'
 import { terser } from 'rollup-plugin-terser'
-import { defineConfig } from 'vite'
+import { defineConfig, normalizePath } from 'vite'
 import domReactivityPlugin from '../vite-plugin'
+import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 export default defineConfig({
   plugins: [
-    domReactivityPlugin({ production: process.env.NODE_ENV === 'production' })
+    domReactivityPlugin({ production: process.env.NODE_ENV === 'production' }),
+    viteStaticCopy({
+      targets: [
+        {
+          src: normalizePath(resolve(__dirname, 'src/client.d.ts')),
+          dest: normalizePath(resolve(__dirname, 'dist')),
+          rename: 'dom-reactivity.client.d.ts'
+        }
+      ]
+    })
   ],
   build: {
     lib: {

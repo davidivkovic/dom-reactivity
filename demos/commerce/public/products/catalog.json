@@ -20,15 +20,15 @@
       }
     },
     "featuredImage": {
-      "url": "/products/images/bag-1-dark.avif"
+      "url": "/products/images/bag-1-dark.jpg"
     },
     "images": [
       {
-        "url": "/products/images/bag-1-dark.avif",
+        "url": "/products/images/bag-1-dark.jpg",
         "altText": "Acme Drawstring Bag - bag-1-dark"
       },
       {
-        "url": "/products/images/bag-1-light.avif",
+        "url": "/products/images/bag-1-light.jpg",
         "altText": "Acme Drawstring Bag - bag-1-light"
       }
     ],
@@ -218,16 +218,16 @@
       }
     },
     "featuredImage": {
-      "url": "/products/images/hoodie-1.avif"
+      "url": "/products/images/hoodie-1.jpg"
     },
     "descriptionHtml": "<p>Fabric blend of Supima Cotton and Micromodal.</p>",
     "images": [
       {
-        "url": "/products/images/hoodie-1.avif",
+        "url": "/products/images/hoodie-1.jpg",
         "altText": "Acme Hoodie - hoodie-1"
       },
       {
-        "url": "/products/images/hoodie-2.avif",
+        "url": "/products/images/hoodie-2.jpg",
         "altText": "Acme Hoodie - hoodie-2"
       }
     ],
@@ -329,16 +329,16 @@
       }
     },
     "featuredImage": {
-      "url": "/products/images/cup-black.avif"
+      "url": "/products/images/cup-black.jpg"
     },
     "descriptionHtml": "<p>12oz double wall ceramic body with a padded bottom.</p>",
     "images": [
       {
-        "url": "/products/images/cup-black.avif",
+        "url": "/products/images/cup-black.jpg",
         "altText": "Acme Cup - Black"
       },
       {
-        "url": "/products/images/cup-white.avif",
+        "url": "/products/images/cup-white.jpg",
         "altText": "Acme Cup - White"
       }
     ],

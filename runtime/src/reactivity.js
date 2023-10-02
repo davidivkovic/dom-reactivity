@@ -85,10 +85,9 @@ export function signal(value) {
   }
 }
 
-export function effect(fn, value, debugName) {
+export function effect(fn, value) {
 
   const effect = {
-    debugName,
     owned: new Set(),
     references: new Set(),
     disposers: new Set(),
@@ -116,6 +115,12 @@ export function effect(fn, value, debugName) {
 
 }
 
+export function memo(fn, value) {
+  const current = signal(value)
+  effect(() => current(c => fn(c)), value)
+  return current
+}
+
 export function onDispose(fn) {
   const currentEffect = getCurrentEffect({ allowUntracked: true })
   if (currentEffect) {
@@ -128,12 +133,6 @@ export function onDispose(fn) {
 
 export function onMount(fn) {
   effect(() => untrack(fn))
-}
-
-export function memo(fn, value) {
-  const current = signal(value)
-  effect(() => current(c => fn(c)), value)
-  return current
 }
 
 export function untrack(fn) {
@@ -259,6 +258,8 @@ export function resource(source, fetcher, options = {}) {
     source = true
   }
 
+  if (typeof fetcher !== "function") throw new Error("fetcher must be a function")
+
   const value = signal(options.initialValue)
   const state = signal("initialValue" in options ? "ready" : "unresolved")
   const error = signal()
@@ -287,13 +288,23 @@ export function resource(source, fetcher, options = {}) {
     state(refetching ? "refreshing" : "pending")
     error(undefined)
 
-    const promise = dynamic
-      ? fetcher(tracked, { value: untrack(value), refetching })
-      : fetcher()
+    const fetcherResult = fetcher(
+      dynamic ? tracked : true, 
+      { 
+        value: untrack(value), 
+        refetching 
+      }
+    )
 
-    if (!promise || typeof promise.then !== "function") return
+    const isPromise = fetcherResult?.then
 
-    promise.then(
+    if (!isPromise) {
+      value(fetcherResult)
+      state("ready")
+      return fetcherResult
+    }
+
+    return fetcherResult.then(
       v => {
         value(v)
         state("ready")
@@ -316,7 +327,8 @@ export function resource(source, fetcher, options = {}) {
         return s === "pending" || s === "refreshing"
       }
     },
-    error: { get: () => error() }
+    error: { get: () => error() },
+    state: { get: () => state() }
   })
 
   if (dynamic) effect(() => load())
