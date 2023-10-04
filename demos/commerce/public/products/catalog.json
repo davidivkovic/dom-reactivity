@@ -314,7 +314,7 @@
     "title": "Acme Cup",
     "collections": [
       "all",
-      "cups",
+      "drinkware",
       "homepage-carousel",
       "homepage-featured"
     ],
@@ -381,7 +381,7 @@
     "title": "Acme Mug",
     "collections": [
       "all",
-      "cups",
+      "drinkware",
       "homepage-carousel"
     ],
     "priceRange": {
