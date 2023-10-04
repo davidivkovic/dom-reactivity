@@ -202,18 +202,18 @@ export async function getCollections() {
       title: "Bags",
       path: "/search/bags",
     },
-    {
-      title: "Drinkware",
-      path: "/search/drinkware",
-    },
-    {
-      title: "Electronics",
-      path: "/search/electronics",
-    },
-    {
-      title: "Footware",
-      path: "/search/footware",
-    },
+    // {
+    //   title: "Drinkware",
+    //   path: "/search/drinkware",
+    // },
+    // {
+    //   title: "Electronics",
+    //   path: "/search/electronics",
+    // },
+    // {
+    //   title: "Footware",
+    //   path: "/search/footware",
+    // },
     {
       title: "Headwear",
       path: "/search/headwear",
@@ -222,18 +222,18 @@ export async function getCollections() {
       title: "Hoodies",
       path: "/search/hoodies",
     },
-    {
-      title: "Jackets",
-      path: "/search/jackets",
-    },
-    {
-      title: "Kids",
-      path: "/search/kids",
-    },
-    {
-      title: "Pets",
-      path: "/search/pets",
-    },
+    // {
+    //   title: "Jackets",
+    //   path: "/search/jackets",
+    // },
+    // {
+    //   title: "Kids",
+    //   path: "/search/kids",
+    // },
+    // {
+    //   title: "Pets",
+    //   path: "/search/pets",
+    // },
     {
       title: "Shirts",
       path: "/search/shirts",

@@ -1,6 +1,6 @@
 [
   {
-    "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzYwNjQ5NjQ5NjQ5MjQ=",
+    "id": "1",
     "handle": "acme-drawstring-bag",
     "title": "Acme Drawstring Bag",
     "collections": [
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzYwNjQ5NjQ5NjQ5MjQ=",
+    "id": "2",
     "handle": "acme-hoodie",
     "title": "Acme Hoodie",
     "collections": [
@@ -309,7 +309,7 @@
     ]
   },
   {
-    "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzYwNjQ5NjQ5NjQ5MjQ=",
+    "id": "3",
     "handle": "acme-cup",
     "title": "Acme Cup",
     "collections": [
@@ -374,5 +374,523 @@
         ]
       }
     ]
+  },
+  {
+    "id": "4",
+    "handle": "acme-mug",
+    "title": "Acme Mug",
+    "collections": [
+      "all",
+      "cups",
+      "homepage-carousel"
+    ],
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "15.0",
+        "currencyCode": "USD"
+      },
+      "maxVariantPrice": {
+        "amount": "15.0",
+        "currencyCode": "USD"
+      }
+    },
+    "featuredImage": {
+      "url": "/products/images/mug-1.png"
+    },
+    "descriptionHtml": "<p>12 oz Beck Cork-Bottom Mug.</p>",
+    "images": [
+      {
+        "url": "/products/images/mug-1.png",
+        "altText": "Acme Mug"
+      },
+      {
+        "url": "/products/images/mug-2.png",
+        "altText": "Acme Mug"
+      }
+    ],
+    "availableForSale": true,
+    "options": [],
+    "variants": []
+  },
+  {
+    "id": "5",
+    "handle": "acme-sticker",
+    "title": "Acme Sticker",
+    "collections": [
+      "all",
+      "stickers",
+      "homepage-carousel"
+    ],
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "4.0",
+        "currencyCode": "USD"
+      },
+      "maxVariantPrice": {
+        "amount": "4.0",
+        "currencyCode": "USD"
+      }
+    },
+    "featuredImage": {
+      "url": "/products/images/sticker-1.png"
+    },
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "/products/images/sticker-1.png",
+        "altText": "Acme Sticker"
+      }
+    ],
+    "availableForSale": false,
+    "options": [],
+    "variants": []
+  },
+  {
+    "id": "6",
+    "handle": "acme-rainbow-sticker",
+    "title": "Acme Rainbow Sticker",
+    "collections": [
+      "all",
+      "stickers",
+      "homepage-carousel"
+    ],
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "4.0",
+        "currencyCode": "USD"
+      },
+      "maxVariantPrice": {
+        "amount": "4.0",
+        "currencyCode": "USD"
+      }
+    },
+    "featuredImage": {
+      "url": "/products/images/sticker-2.png"
+    },
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "/products/images/sticker-2.png",
+        "altText": "Acme Rainbow Sticker"
+      }
+    ],
+    "availableForSale": false,
+    "options": [],
+    "variants": []
+  },
+  {
+    "id": "7",
+    "handle": "acme-prism-t-shirt",
+    "title": "Acme Prism T-Shirt",
+    "collections": [
+      "all",
+      "shirts",
+      "homepage-carousel"
+    ],
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "25.0",
+        "currencyCode": "USD"
+      },
+      "maxVariantPrice": {
+        "amount": "25.0",
+        "currencyCode": "USD"
+      }
+    },
+    "featuredImage": {
+      "url": "/products/images/t-shirt-1.png"
+    },
+    "descriptionHtml": "<p>60% combed ringspun cotton/40% polyester jersey tee.</p>",
+    "images": [
+      {
+        "url": "/products/images/t-shirt-1.png",
+        "altText": "Acme Prism T-Shirt"
+      },
+      {
+        "url": "/products/images/t-shirt-2.png",
+        "altText": "Acme Prism T-Shirt"
+      },
+      {
+        "url": "/products/images/t-shirt-3.png",
+        "altText": "Acme Prism T-Shirt"
+      }
+    ],
+    "availableForSale": true,
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL",
+          "XXXL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 19,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Size",
+            "value": "XS"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "availableForSale": false,
+        "selectedOptions": [
+          {
+            "name": "Size",
+            "value": "S"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Size",
+            "value": "M"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "availableForSale": false,
+        "selectedOptions": [
+          {
+            "name": "Size",
+            "value": "L"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Size",
+            "value": "XL"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "handle": "acme-circles-t-shirt",
+    "title": "Acme Circles T-Shirt",
+    "collections": [
+      "all",
+      "shirts",
+      "homepage-carousel"
+    ],
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "25.0",
+        "currencyCode": "USD"
+      },
+      "maxVariantPrice": {
+        "amount": "25.0",
+        "currencyCode": "USD"
+      }
+    },
+    "featuredImage": {
+      "url": "/products/images/t-shirt-4.png"
+    },
+    "descriptionHtml": "<p>60% combed ringspun cotton/40% polyester jersey tee.</p>",
+    "images": [
+      {
+        "url": "/products/images/t-shirt-4.png",
+        "altText": "Acme Circles T-Shirt"
+      },
+      {
+        "url": "/products/images/t-shirt-5.png",
+        "altText": "Acme Circles T-Shirt"
+      },
+      {
+        "url": "/products/images/t-shirt-6.png",
+        "altText": "Acme Circles T-Shirt"
+      }
+    ],
+    "availableForSale": true,
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Black",
+          "White",
+          "Blue"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL",
+          "XXXL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 24,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "XS"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "availableForSale": false,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "XXL"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "XXXL"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "White"
+          },
+          {
+            "name": "Size",
+            "value": "XS"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "White"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "White"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "availableForSale": false,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "White"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "White"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "White"
+          },
+          {
+            "name": "Size",
+            "value": "XXL"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "White"
+          },
+          {
+            "name": "Size",
+            "value": "XXXL"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "availableForSale": false,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Blue"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "handle": "acme-cap",
+    "title": "Acme Cap",
+    "collections": [
+      "all",
+      "headwear",
+      "homepage-carousel"
+    ],
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "20.0",
+        "currencyCode": "USD"
+      },
+      "maxVariantPrice": {
+        "amount": "20.0",
+        "currencyCode": "USD"
+      }
+    },
+    "featuredImage": {
+      "url": "/products/images/cap-1.png"
+    },
+    "descriptionHtml": "<p>100% cotton twill cap with a low profile and adjustable strap.</p>",
+    "images": [
+      {
+        "url": "/products/images/cap-1.png",
+        "altText": "Acme Cap"
+      },
+      {
+        "url": "/products/images/cap-2.png",
+        "altText": "Acme Cap"
+      },
+      {
+        "url": "/products/images/cap-3.png",
+        "altText": "Acme Cap"
+      }
+    ],
+    "availableForSale": true,
+    "options": [],
+    "variants": []
   }
 ]
