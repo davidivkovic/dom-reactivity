@@ -202,10 +202,10 @@ export async function getCollections() {
       title: "Bags",
       path: "/search/bags",
     },
-    // {
-    //   title: "Drinkware",
-    //   path: "/search/drinkware",
-    // },
+    {
+      title: "Drinkware",
+      path: "/search/drinkware",
+    },
     // {
     //   title: "Electronics",
     //   path: "/search/electronics",
